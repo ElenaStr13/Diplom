@@ -41,7 +41,7 @@
     line-height: 160%;
     color: white;
     max-width: 1110px;
-    min-width: 300px;
+    min-width: 280px;
     padding: 70px 90px;
     border: 1px solid #FCD54C;
     margin-top: 120px;
@@ -90,6 +90,7 @@
         }
 
         .text-frame {
+            width: 90%;
             max-width: 600px;
             min-width: 400px;
             padding: 20px 40px;
@@ -179,25 +180,22 @@
         }
 
         .video {
-           width: 90%;
+            width: 90%;            
         }
 
         .text-frame {
-            max-width: 600px;
-            min-width: 300px;
-            padding: 10px 10px;
-            font-weight: 100;
-            font-size: 24px;
-            line-height: 120%;
+            font-size: 16px;
+            line-height: 160%;
+            padding: 20px 3px;
         }
     }
 
     .placeholder {
-       display: block;
+        display: block;
         margin-top: 45px;
         margin-bottom: 75px;
         width: 90%;
-       
+
 
         span {
             text-align: start;

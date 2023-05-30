@@ -29,3 +29,11 @@ button {
         padding: 5px 5px;
     }
  }
+
+ @media (max-width: 320px) {
+    .black {    
+        height: 30px;
+        width: 30%;
+       
+    }
+ }

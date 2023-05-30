@@ -194,11 +194,10 @@ footer {
     
                 .wrapper-content {
                     display: flex;
-                    flex-direction: row;
-                    margin: 0;
-                    margin-left: 20px;
+                    flex-direction: column;
+                    margin: 0;                    
                     align-items: center;
-                    gap: 150px;
+                    gap: 50px;
     
                     .little-btn {
                         height: 40px;
@@ -318,5 +317,30 @@ footer {
                 color: #E8E8E8
             }
         }
+        .source {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 95px;
+            border-top: 1px solid #E8E8E8;
+            box-sizing: border-box;
+            padding-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+    
+            .footer-icons {
+                display: flex;
+                gap: 30px;
+    
+            }
+    
+            p {
+                text-align: left;
+                font-weight: 300;
+                font-size: 18px;
+                color: #E8E8E8
+            }
+        }
     }
+
 }

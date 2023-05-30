@@ -13,11 +13,15 @@ function ServicesPage() {
     <section className='services'>
       <img className='main-image' src="./image/services/main.webp" alt="main" />
       <ul className='services-title'>
-          <li>{t('mainTitle.titlePastOne')}</li>
-          <li className='services-big-title'>{t('mainTitle.titlePastTwo')}</li>
-          <li className='services-yellow-title'>{t('mainTitle.titlePastThree')}</li>
-        </ul>
+        <li>{t('mainTitle.titlePastOne')}</li>
+        <li className='services-big-title'>{t('mainTitle.titlePastTwo')}</li>
+        <li className='services-yellow-title'>{t('mainTitle.titlePastThree')}</li>
+      </ul>
       <div className='services-main-title'>{t('descriptionServices.rent')}</div>
+      <div className='title-rent'>
+        <p className='services-buying'>{t('descriptionServices.servicesBuying')}</p>
+        <p >{t('descriptionServices.title-rent')}</p>
+      </div>
       <ul className='rent'>
         <li>{t('descriptionServices.textRent1')}</li>
         <li>{t('descriptionServices.textRent2')}</li>
@@ -77,7 +81,7 @@ function ServicesPage() {
       <Table />
       <Propose />
     </section>
-   
+
 
   </>
   );

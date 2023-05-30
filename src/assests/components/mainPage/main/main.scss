@@ -149,12 +149,14 @@ body {
         .main-title {
             border: 2px solid #FCD54C;
             border-right: 0;
+            height: 140px;
 
             .big-title {
                 font-size: 36px;
                 line-height: 30px;
                 text-transform: capitalize;
                 font-weight: 400;
+                margin-bottom: 20px;
             }
 
             .main-sources {
@@ -202,39 +204,23 @@ body {
 
 @media (max-width: 320px) {
     .main {
-        height: 300px;
+        height: 380px;
 
         .main-picture {
             width: 300px;
             height: 300px;
-            align-items: start;
-            background-size: 100%;
-            
+            align-items: center;
+            background-size: cover;
         }
 
         .main-title {
-            height: 150px;
+            height: 200px;
+
             .big-title {
                 margin-top: 10px;
-                margin-bottom: 10px;
-                // font-size: 30px;
-                // line-height: 30px;
+                margin-bottom: 20px;
+
             }
-
-            .main-sources {
-                // font-weight: 300;
-                // font-size: 12px;
-                // line-height: 16px;
-            }
-        }
-
-
-
-        &:first-child li {
-            // font-weight: 2400;
-            // font-size: 12px;
-            // line-height: 16px;
-
         }
 
         .icons {
@@ -243,10 +229,11 @@ body {
         }
 
         .change-pictures {
-            bottom: 50px;
+            bottom: -50px;
+
             .change-mainPicture {
                 flex-direction: column;
-             
+                border-bottom: 1px solid #FCD54C;
 
                 .change-numberPicture {
                     font-weight: 700;

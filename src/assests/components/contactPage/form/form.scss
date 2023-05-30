@@ -98,6 +98,32 @@
         .yellow {
             margin-left: 70px;
         }
+    }
+}
 
+@media (max-width: 320px) {
+    .form {
+        margin-top: 50px;
+        & div:first-child,
+        .feedback-title {           
+            margin-left: 20px;
+        }
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin-left: 0;
+           
+        }
+
+        .textarea,
+        .yellow {
+            margin-left: 30px;
+            width: 90%;
+        }
+
+        .textarea-contact {
+            margin-left: 30px;
+        }
     }
 }

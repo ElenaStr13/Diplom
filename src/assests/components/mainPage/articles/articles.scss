@@ -36,8 +36,7 @@
     display: flex;
     flex-direction: row;
     padding-right: 30px;
-    align-items: center;
-    position: absolute;
+    align-items: center;    
     width: 70%;
 
 
@@ -71,7 +70,7 @@
 .front-card,
 .back-card {
     //width: 100%;
-    max-width: 200px;
+    width: 200px;
     height: 100%;
     position: absolute;
     left: 0;
@@ -152,8 +151,8 @@
 @media (min-width: 320px) and (max-width: 768px) {
 
     .articles {
-        margin: 150px auto;
-       
+        margin: 100px auto;
+
 
         .title-article {
 
@@ -166,6 +165,7 @@
 
         .cards {
             width: 85%;
+            margin-top: 80px;
 
             .one-card,
             .two-card,
@@ -223,6 +223,42 @@
                         font-size: 10px;
                     }
                 }
+            }
+        }
+    }
+}
+
+@media (max-width: 320px) {
+    .articles {
+        margin: 20px auto;
+        .cards {
+            width: 100%;
+            flex-direction: column;
+            height: 100%;
+            margin-top: 50px;
+            align-items: center;
+
+            .one-card,
+            .two-card,
+            .three-card {
+                width: 80%;
+            .back-card, .front-card {
+                width: 100%;
+            }
+        }
+        }
+
+        .title-article {
+            margin-bottom: 20px;
+
+            span {
+
+                display: none;
+            }
+
+            button {
+                font-size: 8px;
+                line-height: 10px;
             }
         }
     }
