@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "title": "Villas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+      "image": "./image/main/Latest project-villas.webp",
+      "category_id": 2      
+    },   
+    {
+      "id": 2,
+      "title": "Dubai",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+      "image": "./image/main/Latest project-last.webp",
+      "category_id": 2      
+    },
+    {
+      "id": 3,
+      "title": "Houses",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+      "image": "./image/main/Latest project-houses.webp",
+      "category_id": 1      
+    },
+    {
+      "id": 4,
+      "title": "Villas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+      "image": "./image/main/Latest project-last.webp",
+      "category_id": 2      
+    },
+    {
+      "id": 5,
+      "title": "Villas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+      "image": "./image/main/Latest project-villas.webp",
+      "category_id": 2      
+    },   
+    {
+      "id": 6,
+      "title": "Dubai",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+      "image": "./image/main/Latest project-last.webp",
+      "category_id": 2      
+    },
+    {
+      "id": 7,
+      "title": "Houses",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+      "image": "./image/main/Latest project-houses.webp",
+      "category_id": 1      
+    },
+    {
+      "id": 8,
+      "title": "Villas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+      "image": "./image/main/Latest project-last.webp",
+      "category_id": 2      
+    }    
+  ]

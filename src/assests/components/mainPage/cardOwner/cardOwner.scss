@@ -1,0 +1,122 @@
+.wrapper-owner {
+    background-color: #272727;
+    height: 320px;
+    width: 500px;
+    border-radius: 8px;
+    padding: 35px 40px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'WorkSans';
+    font-weight: 400;
+    text-align: left;
+    position: relative;
+   
+
+    .quotes {
+
+        font-weight: 600;
+        font-size: 120px;
+        line-height: 200px;
+        color: #FCD54C;
+        position: absolute;
+        right: 70px;
+        top: 90px;
+    }
+
+    .image {
+        margin-bottom: 16px;
+        height: 120px;
+        border-radius: 50%;
+        position: absolute;
+        top: 55px;
+        left: 60px;
+    }
+
+    .owner-text {
+        border: 1px solid #FCD54C;
+        padding: 20px 30px;
+        margin-top: 100px;
+
+
+        .name {
+            font-family: 'Gilroy';
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 30px;
+            margin-top: 80px;
+        }
+
+        .jobTitle {
+            color: white;
+            font-size: 16px;
+            line-height: 19px;
+        }
+
+        .company {
+            color: #FCD54C;
+        }
+
+        .text {
+            color: #929292;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .wrapper-owner {        
+        height: 120px;
+        width: 350px;
+        border-radius: 8px;
+        padding: 35px 40px;
+        padding-top: 150px;
+        margin-bottom: 20px;        
+        font-weight: 400;    
+ 
+        .quotes {    
+            font-weight: 400;
+            font-size: 80px;
+            line-height: 200px;          
+            right: 80px;
+            top: 150px;
+        }
+    
+        .image {
+            margin-bottom: 16px;
+            height: 120px;
+            border-radius: 50%;
+            position: absolute;
+            top: 120px;
+            left: 80px;
+        }
+    
+        .owner-text {
+            border: 1px solid #FCD54C;
+            padding: 10px 20px;
+            margin-top: 50px;
+    
+    
+            .name {
+                font-family: 'Gilroy';
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+                margin-top: 30px;
+            }
+    
+            .jobTitle {
+                color: white;
+                font-size: 12px;
+                line-height: 16px;
+            }   
+            .text {
+              
+                font-size: 12px;
+                line-height: 20px;
+            }
+    
+        }
+    }
+}

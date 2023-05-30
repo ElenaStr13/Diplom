@@ -1,0 +1,92 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Gilroy';
+}
+
+.title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 85px;
+margin-right: 500px;
+}
+
+.all-article {
+    color: #929292;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    width: 1111px;
+    margin-bottom: 170px;
+
+    .article-one,
+    .article-two,
+    .article-three {
+        background-repeat: no-repeat;
+        width: 350px;
+        height: 350px;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .article-one {
+        background-image: url('../../../../../public/image/main/usefullArticle1.webp');
+        position: relative;
+
+        div {
+            position: absolute;
+            bottom: 50px;
+            left: 40px;
+        }
+    }
+
+    .article-three {
+        background-image: url('../../../../../public/image/main/usefullArticle2.webp');
+        position: relative;
+
+        div {
+            position: absolute;
+            bottom: 50px;
+            left: 40px;
+        }
+    }
+
+    .article-two {
+        border: 1px solid #FCD54C;
+        text-align: left;
+        padding: 40px 35px;
+        box-sizing: border-box;
+
+        span {
+            font-family: 'WorkSans';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 35px;
+            margin-bottom: 25px;
+        }
+
+        div {
+            color: #929292;
+            font-family: 'WorkSans';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            margin-bottom: 40px;
+        }
+
+        .learnMore {
+            color: #FCD54C;
+        }
+
+    }
+}
