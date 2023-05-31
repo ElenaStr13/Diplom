@@ -23,7 +23,7 @@ function Header() {
   }
 
   return (<>
-    <section className='header'>
+    <header className='header'>
       <div className='leftPart-menu'>
         <img src="./image/main/logo.webp" alt="" />
 
@@ -61,7 +61,7 @@ function Header() {
   </div>
 </nav>
       </div>
-    </section>
+    </header>
     {isModalOpen && <Modal
       className={isModalOpen ? 'open' : 'close'}
       onClose={() => setIsModalOpen(false)}

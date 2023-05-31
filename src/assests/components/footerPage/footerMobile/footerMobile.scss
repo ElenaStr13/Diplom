@@ -294,53 +294,16 @@ footer {
         }
     
         .source {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: 95px;
-            border-top: 1px solid #E8E8E8;
-            box-sizing: border-box;
-            padding-top: 30px;
-            padding-left: 20px;
-            padding-right: 20px;
-    
-            .footer-icons {
-                display: flex;
-                gap: 30px;
-    
-            }
-    
+              padding-left: 0;  
+            .footer-icons {               
+                margin-left: 0;    
+            }    
             p {
-                text-align: left;
-                font-weight: 300;
-                font-size: 18px;
-                color: #E8E8E8
+               margin-right: 0;
             }
         }
-        .source {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            margin-top: 95px;
-            border-top: 1px solid #E8E8E8;
-            box-sizing: border-box;
-            padding-top: 30px;
-            padding-left: 20px;
-            padding-right: 20px;
     
-            .footer-icons {
-                display: flex;
-                gap: 30px;
-    
-            }
-    
-            p {
-                text-align: left;
-                font-weight: 300;
-                font-size: 18px;
-                color: #E8E8E8
-            }
-        }
+        
     }
 
 }
