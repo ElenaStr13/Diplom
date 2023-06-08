@@ -3,7 +3,7 @@ import './pagination.scss';
 import ReactPaginate from 'react-paginate';
 
 function Items(props) {
-    const {data} =props;
+    const { data } = props;
     const [currentItems, setCurrentItems] = useState([]);
     const [pageCount, setPageCount] = useState(0);
     const [itemOffset, setItemOffset] = useState(0);
@@ -31,12 +31,17 @@ function Items(props) {
                 {/* <Items currentItems={currentItems} /> */}
                 <ReactPaginate
                     breakLabel="..."
-                    nextLabel="next >"
+                    nextLabel=" >"
                     onPageChange={handlePageClick}
                     pageRangeDisplayed={3}
                     pageCount={pageCount}
-                    previousLabel="< previous"
+                    previousLabel="< "
                     renderOnZeroPageCount={null}
+                    pageLinkClassName="page-item"
+                    containerClassName="pagination"
+                    activeClassName="page-link"
+                    previousLinkClassName="page-link"
+                    nextLinkClassName="page-link"
                 />
             </ul>
         </>

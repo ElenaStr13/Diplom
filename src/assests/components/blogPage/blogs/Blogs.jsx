@@ -39,12 +39,15 @@ function Blogs() {
   const [currentItems, setCurrentItems] = useState([]);
   const [pageCount, setPageCount] = useState(0);
   const [itemOffset, setItemOffset] = useState(0);
-  const itemsPerPage = 3;
+  const itemsPerPage = 12;
 
   useEffect(() => {
       const endOffset = itemOffset + itemsPerPage;
-      // setSearchResult(searchResult.slice(itemOffset, endOffset));
-      // setPageCount(Math.ceil(searchResult.length / itemsPerPage));
+      //console.log(searchResult);      
+      setCurrentItems(searchResult.slice(itemOffset, endOffset));
+      //console.log(currentItems);
+     setPageCount(Math.ceil(searchResult.length / itemsPerPage));
+     console.log(pageCount);
   }, [itemOffset, itemsPerPage, searchResult])
 
   const handlePageClick = (event) => {
@@ -68,12 +71,17 @@ function Blogs() {
     <ul className='pagination'>               
                 <ReactPaginate
                     breakLabel="..."
-                    nextLabel="next >"
+                    nextLabel=">"
                     onPageChange={handlePageClick}
                     pageRangeDisplayed={3}
                     pageCount={pageCount}
-                    previousLabel="< previous"
+                    previousLabel="< "
                     renderOnZeroPageCount={null}
+                    pageLinkClassName="page-item"
+                    containerClassName="pagination"
+                    activeClassName="page-link"
+                    previousLinkClassName="page-link"
+                    nextLinkClassName="page-link"
                 />
             </ul>
   </>                                                                
