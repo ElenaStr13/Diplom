@@ -30,6 +30,13 @@
             "interior": "Інтер'єр",
             "viewAll": "Подивитись всі проекти"
         },
+            "latestProject": {
+            "titleOne": "Віли",
+            "description": "Є злочини гірші, ніж спалювати книги. Наприклад – не читати їх. Ми не виносимо людей з тими ж недоліками, що і у нас. Мені начхати, що ви про мене думаєте.",
+            "titleTwo": "Дубаї",
+            "titleThree": "Будівлі",
+            "seeProject": "Побачити проект"
+        },
         "mainVideo": {
             "expertise": "Наша експертиза",
             "titleExpertise": "«Найкраща квартира в Дубаї» ми знайдемо вашу мрію",
@@ -149,6 +156,150 @@
     "descriptionBlog": {
         "blogTitle": "Блог",
         "blog": [
+            {
+                "image": "./image/blog/shutterstock_1.webp",
+                "title": "Комерційна нерухомість в Абу-Дабі",
+                "text": "У Дубаї підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_2.webp",
+                "title": "Біла комерційна нерухомість в Абу-Дабі",
+                "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_3.webp",
+                "title": "Інша комерційна нерухомість в Абу-Дабі",
+                "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_4.webp",
+                "title": "Комерційна нерухомість в Абу-Дабі",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_5.webp",
+                "title": "Біла комерційна нерухомість в Абу-Дабі",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_6.webp",
+                "title": "Інша комерційна нерухомість в Абу-Дабі",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_7.webp",
+                "title": "Комерційна нерухомість в Абу-Дабі",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_8.webp",
+                "title": "Біла комерційна нерухомість в Абу-Дабі",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_9.webp",
+                "title": "Інша комерційна нерухомість в Абу-Дабі",
+                "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_10.webp",
+                "title": "Комерційна нерухомість в Абу-Дабі",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_11.webp",
+                "title": "Біла комерційна нерухомість в Абу-Дабі",
+                "text": "У Дубаї підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_12.webp",
+                "title": "Інша комерційна нерухомість в Абу-Дабі",
+                "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_12.webp",
+                "title": "Комерційна нерухомість в Абу-Дабі",
+                "text": "У Дубаї підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_11.webp",
+                "title": "Біла комерційна нерухомість в Абу-Дабі",
+                "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_10.webp",
+                "title": "Інша комерційна нерухомість в Абу-Дабі",
+                "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_9.webp",
+                "title": "Комерційна нерухомість в Абу-Дабі",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_8.webp",
+                "title": "Біла комерційна нерухомість в Абу-Дабі",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_7.webp",
+                "title": "Інша комерційна нерухомість в Абу-Дабі",
+                "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_6.webp",
+                "title": "Комерційна нерухомість в Абу-Дабі",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_5.webp",
+                "title": "Біла комерційна нерухомість в Абу-Дабі",
+                "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_4.webp",
+                "title": "Інша комерційна нерухомість в Абу-Дабі",
+                "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_3.webp",
+                "title": "Комерційна нерухомість в Абу-Дабі",
+                "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_2.webp",
+                "title": "Біла комерційна нерухомість в Абу-Дабі",
+                "text": "У Дубаї підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
+            {
+                "image": "./image/blog/shutterstock_1.webp",
+                "title": "Інша комерційна нерухомість в Абу-Дабі",
+                "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
+                "learn":"Докладніше >"
+            },
             {
                 "image": "./image/blog/shutterstock_1.webp",
                 "title": "Комерційна нерухомість в Абу-Дабі",

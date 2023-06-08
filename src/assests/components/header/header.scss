@@ -14,7 +14,10 @@
     flex-wrap: wrap;
     width: 100%;
     margin-bottom: 25px;
-
+    position: fixed;
+    top: 0;
+    z-index: 199;
+   
     //left part for menu - logo and nav
     .leftPart-menu {
         display: flex;
@@ -289,6 +292,7 @@
                     width: 20px;
                     background-color: white;
                     height: 2px;
+                    transition: all 0.3 ;
                 }
 
                 .burger-btn::after {
@@ -298,7 +302,24 @@
                     width: 20px;
                     background-color: white;
                     height: 2px;
+                    transition: all 0.3s ;
                 }
+
+                 .burger-btn.active-burger::before {
+                    transform: rotate(45deg);
+                    top: 9px;
+                 }
+
+                 .burger-btn.active-burger::after {
+                    transform: rotate(-45deg);
+                    bottom: 9px;
+                 }
+
+                 .burger-btn.active-burger {
+                    span {
+                    display: none;
+                    }
+                 }
             }
 
 

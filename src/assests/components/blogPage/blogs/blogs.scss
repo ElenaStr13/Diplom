@@ -38,6 +38,10 @@ body {
                 height: 100%;
             }
 
+            .search-input::-webkit-search-cancel-button {
+                display: none;
+            }
+
             input:focus {
                 outline: none;
             }

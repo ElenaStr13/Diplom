@@ -45,7 +45,29 @@ function LatestProjects() {
         onSlideChange={() => console.log('slide change')}
         //onSwiper={(swiper) => console.log(swiper)}
         pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}>
+        scrollbar={{ draggable: true }}
+        breakpoints=  {{
+          "320": {
+              "width": 320,
+              "slidesPerView": 2,
+              "spaceBetween": 6,
+              "grid": {
+               " rows": 2,
+              },
+              // slidesPerColumn: 2                        
+          },
+          768: {
+              width: 768,
+              slidesPerView: 4,
+              spaceBetween: 6                        
+          },
+          1900: {
+              width: 1900,
+              slidesPerView: 4,
+              spaceBetween: 6                       
+          }}
+
+      }>
         <SwiperSlide>
           <div className='wrapper-card'>
             <div className='front-project'>

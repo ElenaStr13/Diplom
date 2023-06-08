@@ -12,7 +12,9 @@ function Header() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [t] = useTranslation(["translation"]);
   const [drop, setDrop] = useState(false);
-  const [menuActive, setMenuActive] = useState(false)
+  const [menuActive, setMenuActive] = useState(false);
+ 
+
 
   const showDropdown = () => {
     setDrop(true);
@@ -56,7 +58,7 @@ function Header() {
         </div>
         <a href="tel:+3099111111">+3 (099) 111-11-11</a>
         <nav className='burger-menu'>
-  <div className='burger-btn'onClick = {() => setMenuActive(!menuActive)}>
+  <div className={menuActive ? 'active-burger burger-btn': 'burger-btn'} onClick = {() => setMenuActive(!menuActive)}>
     <span></span>
   </div>
 </nav>

@@ -22,8 +22,8 @@ function FooterMobile({ onOpen, color }) {
             <div className='footer-accordion'>
 
                 <section>
-                    <input type="checkbox" className="accordion-checkbox" id="accordion-heading-1" />
-                    <label className="accordion-heading" htmlFor="accordion-heading-1">{t('descriptionLast.buy.navTitle')}</label>
+                    <input type="checkbox" className="accordion-checkbox" id="accordion-1" />
+                    <label className="accordion-heading" htmlFor="accordion-1">{t('descriptionLast.buy.navTitle')}</label>
                     <div className="accordion-content">
                         <p>{t('descriptionLast.buy.nav1')}</p>
                         <p>{t('descriptionLast.buy.nav2')}</p>
@@ -35,8 +35,8 @@ function FooterMobile({ onOpen, color }) {
                 </section>
 
                 <section>
-                    <input type="checkbox" className="accordion-checkbox" id="accordion-heading-2" />
-                    <label className="accordion-heading" htmlFor="accordion-heading-2">{t('descriptionLast.services.navTitle')}</label>
+                    <input type="checkbox" className="accordion-checkbox" id="accordion-2" />
+                    <label className="accordion-heading" htmlFor="accordion-2">{t('descriptionLast.services.navTitle')}</label>
                     <div className="accordion-content">
                         <p>{t('descriptionLast.services.nav1')}</p>
                         <p>{t('descriptionLast.services.nav2')}</p>
@@ -48,8 +48,8 @@ function FooterMobile({ onOpen, color }) {
                 </section>
 
                 <section>
-                    <input type="checkbox" className="accordion-checkbox" id="accordion-heading-3" />
-                    <label className="accordion-heading" htmlFor="accordion-heading-3">{t('descriptionLast.information.navTitle')}</label>
+                    <input type="checkbox" className="accordion-checkbox" id="accordion-3" />
+                    <label className="accordion-heading" htmlFor="accordion-3">{t('descriptionLast.information.navTitle')}</label>
                     <div className="accordion-content">
                         <p>{t('descriptionLast.information.nav1')}</p>
                         <p>{t('descriptionLast.information.nav2')}</p>
@@ -61,8 +61,8 @@ function FooterMobile({ onOpen, color }) {
                 </section>
 
                 <section>
-                    <input type="checkbox" className="accordion-checkbox" id="accordion-heading-4" />
-                    <label className="accordion-heading" htmlFor="accordion-heading-4">{t('descriptionLast.aboutCompany.navTitle')}</label>
+                    <input type="checkbox" className="accordion-checkbox" id="accordion-4" />
+                    <label className="accordion-heading" htmlFor="accordion-4">{t('descriptionLast.aboutCompany.navTitle')}</label>
                     <div className="accordion-content">
                         <p>{t('descriptionLast.aboutCompany.nav1')}</p>
                         <p>{t('descriptionLast.aboutCompany.nav2')}</p>
@@ -75,7 +75,7 @@ function FooterMobile({ onOpen, color }) {
 
                 <section className='lastNews'>
                     {/* <input type="checkbox" className="accordion-checkbox" id="accordion-heading-5" /> */}
-                    <label className="footer-heading" htmlFor="accordion-heading-5">{t('descriptionLast.contact.navTitle')}</label>
+                    <label className="footer-heading" htmlFor="accordion-5">{t('descriptionLast.contact.navTitle')}</label>
                     <div className="wrapper-content">
                     <div className="footer-content">
                         <p>{t('descriptionLast.contact.nav1')}</p>

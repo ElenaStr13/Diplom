@@ -1,59 +1,81 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './pagination.scss';
 import ReactPaginate from 'react-paginate';
 
+function Items(props) {
+    const {data} =props;
+    const [currentItems, setCurrentItems] = useState([]);
+    const [pageCount, setPageCount] = useState(0);
+    const [itemOffset, setItemOffset] = useState(0);
+    const itemsPerPage = 3;
 
-function Items() {
-    const [currentPage, setCurrentPage] = useState(1);  
+    useEffect(() => {
+        const endOffset = itemOffset + itemsPerPage;
+        setCurrentItems(data.slice(itemOffset, endOffset));
+        setPageCount(Math.ceil(data.length / itemsPerPage));
+    }, [itemOffset, itemsPerPage, data])
+
+    const handlePageClick = (event) => {
+        const newOffset = (event.selected * itemsPerPage) % data.length;
+        setItemOffset(newOffset);
+    };
 
     return (
         <>
+            {/* <div>{currentItems.map(blog => {
+            return (
+                <div>{blog}</div>
+            )
+        })}</div> */}
             <ul className='pagination'>
+                {/* <Items currentItems={currentItems} /> */}
                 <ReactPaginate
                     breakLabel="..."
-                    nextLabel=" >"
-                    onPageChange={() => changeCPage()}
+                    nextLabel="next >"
+                    onPageChange={handlePageClick}
                     pageRangeDisplayed={3}
-                    pageCount="96"
-                    previousLabel="<"
+                    pageCount={pageCount}
+                    previousLabel="< previous"
                     renderOnZeroPageCount={null}
-                    pageLinkClassName="page-item"
-                    containerClassName="pagination"
-                    activeClassName="page-link"
-                    previousLinkClassName="page-link"
-                    nextLinkClassName="page-link"
                 />
             </ul>
         </>
     );
-
-    function changeCPage(id) {
-        setCurrentPage(id)
-    }
 }
 
 export default Items;
 
-//const items = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
-  // const recordsPerPage = 2;
-    // const lastIndex = currentPage * recordsPerPage;
-    // const firstIndex = lastIndex - recordsPerPage;
-    //const records = items.slice(firstIndex, lastIndex);
-    //const npage = Math.ceil(items.length / recordsPerPage);
-    //const numbers = [...Array(npage + 1).keys()].slice(1)
+// function Items({renderSearch}) {
+//     const [currentPage, setCurrentPage] = useState(1);
+//     const [totalPages, setTotalPages] = useState(0);
+//     const itemsPerPage = 12;
+//     console.log(renderSearch);
+//     //setTotalPages(Math.ceil(renderSearch.length / itemsPerPage));
 
-// {
-//     numbers.map((n, i) => (
-//         <li className={`page-item ${currentPage === n ? 'active' : ''}`} key={i}>
-//             <a href="#" className='page-link' onClick={() => changeCPage(n)}>{n}</a>
-//         </li>
-//     ))
-// }
-// <li className="page-item">
-//     <a href="#" className='page-link' onClick={nextPage}>›</a>
-// </li>
+//     return (
+//         <>
+//             <ul className='pagination'>
+//                 <ReactPaginate
+//                     breakLabel="..."
+//                     nextLabel=" >"
+//                     onPageChange={() => changeCPage()}
+//                     pageRangeDisplayed={3}
+//                     pageCount="96"
+//                     previousLabel="<"
+//                     renderOnZeroPageCount={null}
+//                     pageLinkClassName="page-item"
+//                     containerClassName="pagination"
+//                     activeClassName="page-link"
+//                     previousLinkClassName="page-link"
+//                     nextLinkClassName="page-link"
+//                 />
+//             </ul>
+//         </>
+//     );
 
-// function nextPage() {
-//     if (currentPage !== npage)
-//         setCurrentPage(currentPage + 1)
+//     function changeCPage(id) {
+//         setCurrentPage(id)
+//     }
 // }
+
+// export default Items;
