@@ -38,7 +38,7 @@ function LatestProjects() {
               // grid: {
               //   rows: 2,
               // }
-               slidesPerRow: 2                        
+               slidesPerColumn: 2                        
           },
           767: {
               width: 767,
@@ -54,8 +54,8 @@ function LatestProjects() {
       }>
       
         {t("description.latestProject", { returnObjects: true }).map((el, index) => (
-           <SwiperSlide>
-        <div className='wrapper-card' key={index+el.front}>
+           <SwiperSlide key={index+el.back}>
+        <div className='wrapper-card' >
             <div className='front-project'>
                 <img src={el.image} alt="user" className='image-project' />
                 <span className='front-title'>{el.front}</span>
