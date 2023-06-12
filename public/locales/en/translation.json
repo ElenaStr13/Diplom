@@ -23,20 +23,81 @@
             "title": "Lorem Ipsum ",
             "text": "Dolorem apset"
         },
+       
+        "latestProject": [
+            {
+                "id": 1,
+                "image": "./image/main/Latest project-villas.webp",
+                "front": "Villas",
+                "back": "Villas",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 2,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Dubai",
+                "back": "Dubai",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 3,
+                "image": "./image/main/Latest project-houses.webp",
+                "front": "Houses",
+                "back": "Houses",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 4,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Villas",
+                "back": "Villas",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 5,
+                "image": "./image/main/Latest project-villas.webp",
+                "front": "Villas",
+                "back": "Villas",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 6,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Dubai",
+                "back": "Dubai",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 7,
+                "image": "./image/main/Latest project-houses.webp",
+                "front": "Houses",
+                "back": "Houses",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            },
+            {
+                "id": 8,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Villas",
+                "back": "Villas",
+                "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+                "seeProject": "See project"
+            }
+
+        ],
         "latestProjects": {
             "titleLatest": "Latest projects",
             "navAll": "All",
             "building": "Building",
             "interior": "Interior",
             "viewAll": "View all projects"
-        },
-        "latestProject": {
-            "titleOne": "Villas",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
-            "titleTwo": "Dubai",
-            "titleThree": "Houses",
-            "seeProject": "See project"
-        },
+        },     
         "mainVideo": {
             "expertise": "Our expertise",
             "titleExpertise": "'The best apartment in Dubai' we will find your dream",
@@ -154,7 +215,7 @@
             {
                 "id": 1,
                 "image": "./image/blog/shutterstock_1.webp",
-                "title": "Commercial property in Abu Dhabi",
+                "title": "Black commercial property in Abu Dhabi",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
                 "learn":"Learn more >"
             },
@@ -196,7 +257,7 @@
             {
                 "id": 7,
                 "image": "./image/blog/shutterstock_7.webp",
-                "title": "Commercial property in Abu Dhabi",
+                "title": "Black commercial property in Abu Dhabi",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
                 "learn":"Learn more >"
             },
@@ -238,7 +299,7 @@
             {
                 "id": 13,
                 "image": "./image/blog/shutterstock_12.webp",
-                "title": "Commercial property in Abu Dhabi",
+                "title": "Black commercial property in Abu Dhabi",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
                 "learn":"Learn more >"
             },
@@ -280,7 +341,7 @@
             {
                 "id": 19,
                 "image": "./image/blog/shutterstock_6.webp",
-                "title": "Commercial property in Abu Dhabi",
+                "title": "Black commercial property in Abu Dhabi",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
                 "learn":"Learn more >"
             },

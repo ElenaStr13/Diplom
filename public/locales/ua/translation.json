@@ -30,13 +30,73 @@
             "interior": "Інтер'єр",
             "viewAll": "Подивитись всі проекти"
         },
-            "latestProject": {
-            "titleOne": "Віли",
-            "description": "Є злочини гірші, ніж спалювати книги. Наприклад – не читати їх. Ми не виносимо людей з тими ж недоліками, що і у нас. Мені начхати, що ви про мене думаєте.",
-            "titleTwo": "Дубаї",
-            "titleThree": "Будівлі",
-            "seeProject": "Побачити проект"
-        },
+        "latestProject": [
+            {
+                "id": 1,
+                "image": "./image/main/Latest project-villas.webp",
+                "front": "Віли",
+                "back": "Віли",
+                "description":"Не обмежуйте себе. Ви можете зайти настільки далеко, наскільки вам дозволяє ваш розум. У що ти віриш, пам'ятай ти може досягти. ",
+                "seeProject": "Подивитись проект"
+            },
+            {
+                "id": 2,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Дубаї",
+                "back": "Дубаї",
+                "description":"Не обмежуйте себе. Ви можете зайти настільки далеко, наскільки вам дозволяє ваш розум. У що ти віриш, пам'ятай ти може досягти. ",
+                "seeProject": "Подивитись проект"
+            },
+            {
+                "id": 3,
+                "image": "./image/main/Latest project-houses.webp",
+                "front": "Будівлі",
+                "back": "Будівлі",
+                "description":"Не обмежуйте себе. Ви можете зайти настільки далеко, наскільки вам дозволяє ваш розум. У що ти віриш, пам'ятай ти може досягти. ",
+                "seeProject": "Подивитись проект"
+            },
+            {
+                "id": 4,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Віли",
+                "back": "Віли",
+                "description":"Не обмежуйте себе. Ви можете зайти настільки далеко, наскільки вам дозволяє ваш розум. У що ти віриш, пам'ятай ти може досягти. ",
+                "seeProject": "Подивитись проект"
+            },
+            {
+                "id": 5,
+                "image": "./image/main/Latest project-villas.webp",
+                "front": "Віли",
+                "back": "Віли",
+                "description":"Не обмежуйте себе. Ви можете зайти настільки далеко, наскільки вам дозволяє ваш розум. У що ти віриш, пам'ятай ти може досягти. ",
+                "seeProject": "Подивитись проект"
+            },
+            {
+                "id": 6,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Дубаї",
+                "back": "Дубаї",
+                "description":"Не обмежуйте себе. Ви можете зайти настільки далеко, наскільки вам дозволяє ваш розум. У що ти віриш, пам'ятай ти може досягти. ",
+                "seeProject": "Подивитись проект"
+            },
+            {
+                "id": 7,
+                "image": "./image/main/Latest project-houses.webp",
+                "front": "Будівлі",
+                "back": "Будівлі",
+                "description":"Не обмежуйте себе. Ви можете зайти настільки далеко, наскільки вам дозволяє ваш розум. У що ти віриш, пам'ятай ти може досягти. ",
+                "seeProject": "Подивитись проект"
+            },
+            {
+                "id": 8,
+                "image": "./image/main/Latest project-last.webp",
+                "front": "Віли",
+                "back": "Віли",
+                "description":"Не обмежуйте себе. Ви можете зайти настільки далеко, наскільки вам дозволяє ваш розум. У що ти віриш, пам'ятай ти може досягти. ",
+                "seeProject": "Подивитись проект"
+            }
+
+        ],
         "mainVideo": {
             "expertise": "Наша експертиза",
             "titleExpertise": "«Найкраща квартира в Дубаї» ми знайдемо вашу мрію",
@@ -71,20 +131,17 @@
             "fifeText": "Є злочини гірші, ніж спалювати книги. Наприклад – не читати їх. Ми не виносимо людей з тими ж недоліками, що і у нас. Мені начхати, що ви про мене думаєте. Я про вас не думаю взагалі. Важко забути біль, але ще важче згадати радість. Щастя не залишає пам’ятних шрамів. Рішення, прийняті глухої ночі, зазвичай втрачають силу при світлі дня. Я не буду думати про це сьогодні, я подумаю про це завтра. Я очікувала від життя чого завгодно, але тільки не того, що коли-небудь мені буде більше сорока. Тим, хто щасливий, нема коли писати щоденники, вони занадто зайняті життям. Він любив і страждав. Він любив гроші і страждав від їх нестачі. Багато людей схильні перебільшувати ставлення до себе інших людей і це є недоречним. Вік живи - вік навчайся."
         }
     },
-
     "titleModal": "Modal",
     "descriptionModal": {
         "title": "Залиште свої дані",
         "feedback": "Ми зв'яжемось з вами протягом 3 годин"
     },
-
     "titleCategory": "категорія",
     "descriptionCategory": {
         "title": "Квартири",
         "titleText": "в Дубаї",
         "titleApartments": "Всі квартири",
         "category": "Категорія",
-
         "categoryes": {
             "categoryOne": "Таунхауси",
             "categoryTwo": "Вілли",
@@ -92,58 +149,57 @@
             "backTitle": "Квартири",
             "backDescription": "Туди й назад це захоплювало її: кожен камінчик, мурашка, паличка, листочок, травинка й тріщина на тротуарі — це те, що можна взяти, подивитися, спробувати на смак, понюхати й потрясти. Все їй було цікаво. Вона нічого не знала. Я знав усе… був там, робив це. Вона була в моменті, я був у минулому. Вона була уважна. Я був без розуму."
         },
-
         "titleOffer": "Кращі пропозиції",
         "Offers": {
             "offerOne": {
                 "category": "Таунхаус",
                 "titleCategory": "Арабське ранчо",
                 "textCategory": "Запуск цієї спільноти дозволив експатам володіти розкішною нерухомістю в Дубаї.",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             "offerTwo": {
                 "category": "Віла",
-                "titleCategory": "Дубаї маєток"          
+                "titleCategory": "Дубаї маєток"
             },
             "offerThree": {
                 "category": "Комерційний",
-                "titleCategory": "компактне"          
+                "titleCategory": "компактне"
             },
             "offerFour": {
                 "category": "Апартаменти",
-                "titleCategory": "Розкішне життя"          
+                "titleCategory": "Розкішне життя"
             },
             "offerFife": {
                 "category": "Таунхаус",
-                "titleCategory": "Арабськє ранчо"          
+                "titleCategory": "Арабськє ранчо"
             },
             "offerSix": {
                 "category": "Комерційний",
-                "titleCategory": "компактне"          
+                "titleCategory": "компактне"
             },
             "offerSeven": {
                 "category": "Комерційний",
-                "titleCategory": "компактне"          
+                "titleCategory": "компактне"
             },
             "offerEight": {
                 "category": "Апартаменти",
-                "titleCategory": "Розкішне життя"          
+                "titleCategory": "Розкішне життя"
             },
             "offerNine": {
                 "category": "Таунхаус",
-                "titleCategory": "Арабськє ранчо"          
+                "titleCategory": "Арабськє ранчо"
             },
             "offerTen": {
                 "category": "Комерційний",
-                "titleCategory": "компактне"          
+                "titleCategory": "компактне"
             },
             "offerEleven": {
                 "category": "Комерційний",
-                "titleCategory": "компактне"          
+                "titleCategory": "компактне"
             },
             "offerTwelve": {
                 "category": "Апартаменти",
-                "titleCategory": "Розкішне життя"          
+                "titleCategory": "Розкішне життя"
             }
         },
         "apartments": "Квартири",
@@ -151,232 +207,266 @@
         "everything": "Все по дорозі",
         "everythingText": "Один дотик до розпеченої плити — це, як правило, все, що нам потрібно, щоб уникнути подібного дискомфорту в майбутньому. Те ж саме вірно, коли ми відчуваємо емоційне відчуття стресу від наших перших випадків соціального відторгнення або насмішок. Ми швидко вчимося боятися і таким чином автоматично уникаємо потенційно стресових ситуацій усіх видів, включаючи найпоширенішу з усіх: помилки."
     },
-
     "titleBlog": "блог",
     "descriptionBlog": {
         "blogTitle": "Блог",
         "blog": [
             {
+                "id": 1,
                 "image": "./image/blog/shutterstock_1.webp",
-                "title": "Комерційна нерухомість в Абу-Дабі",
+                "title": "Чорна комерційна нерухомість в Абу-Дабі",
                 "text": "У Дубаї підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 2,
                 "image": "./image/blog/shutterstock_2.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 3,
                 "image": "./image/blog/shutterstock_3.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 4,
                 "image": "./image/blog/shutterstock_4.webp",
                 "title": "Комерційна нерухомість в Абу-Дабі",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 5,
                 "image": "./image/blog/shutterstock_5.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 6,
                 "image": "./image/blog/shutterstock_6.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 7,
                 "image": "./image/blog/shutterstock_7.webp",
-                "title": "Комерційна нерухомість в Абу-Дабі",
+                "title": "Чорна комерційна нерухомість в Абу-Дабі",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 8,
                 "image": "./image/blog/shutterstock_8.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 9,
                 "image": "./image/blog/shutterstock_9.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 10,
                 "image": "./image/blog/shutterstock_10.webp",
                 "title": "Комерційна нерухомість в Абу-Дабі",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 11,
                 "image": "./image/blog/shutterstock_11.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "У Дубаї підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 12,
                 "image": "./image/blog/shutterstock_12.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 13,
                 "image": "./image/blog/shutterstock_12.webp",
-                "title": "Комерційна нерухомість в Абу-Дабі",
+                "title": "Чорна комерційна нерухомість в Абу-Дабі",
                 "text": "У Дубаї підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 14,
                 "image": "./image/blog/shutterstock_11.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 15,
                 "image": "./image/blog/shutterstock_10.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 16,
                 "image": "./image/blog/shutterstock_9.webp",
                 "title": "Комерційна нерухомість в Абу-Дабі",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 17,
                 "image": "./image/blog/shutterstock_8.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 18,
                 "image": "./image/blog/shutterstock_7.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 19,
                 "image": "./image/blog/shutterstock_6.webp",
-                "title": "Комерційна нерухомість в Абу-Дабі",
+                "title": "Чорна комерційна нерухомість в Абу-Дабі",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 20,
                 "image": "./image/blog/shutterstock_5.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 21,
                 "image": "./image/blog/shutterstock_4.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 22,
                 "image": "./image/blog/shutterstock_3.webp",
                 "title": "Комерційна нерухомість в Абу-Дабі",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 23,
                 "image": "./image/blog/shutterstock_2.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "У Дубаї підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 24,
                 "image": "./image/blog/shutterstock_1.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 25,
                 "image": "./image/blog/shutterstock_1.webp",
                 "title": "Комерційна нерухомість в Абу-Дабі",
                 "text": "У Дубаї підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 26,
                 "image": "./image/blog/shutterstock_2.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 27,
                 "image": "./image/blog/shutterstock_3.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 28,
                 "image": "./image/blog/shutterstock_4.webp",
                 "title": "Комерційна нерухомість в Абу-Дабі",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 29,
                 "image": "./image/blog/shutterstock_5.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 30,
                 "image": "./image/blog/shutterstock_6.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "The final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 31,
                 "image": "./image/blog/shutterstock_7.webp",
                 "title": "Комерційна нерухомість в Абу-Дабі",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 32,
                 "image": "./image/blog/shutterstock_8.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 33,
                 "image": "./image/blog/shutterstock_9.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 34,
                 "image": "./image/blog/shutterstock_10.webp",
                 "title": "Комерційна нерухомість в Абу-Дабі",
                 "text": "In Dubai, the final statistics of all transactions related to real estate for the first quarter has been confirmed ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 35,
                 "image": "./image/blog/shutterstock_11.webp",
                 "title": "Біла комерційна нерухомість в Абу-Дабі",
                 "text": "У Дубаї підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             },
             {
+                "id": 36,
                 "image": "./image/blog/shutterstock_12.webp",
                 "title": "Інша комерційна нерухомість в Абу-Дабі",
                 "text": "Підтверджено підсумкову статистику всіх угод з нерухомістю за перший квартал ...",
-                "learn":"Докладніше >"
+                "learn": "Докладніше >"
             }
-        ]        
+        ]
     },
-
     "titleServices": "Послуги",
-    "mainTitle":{
+    "mainTitle": {
         "titlePastOne": "Оренда",
         "titlePastTwo": "Мебльовані квартири ",
         "titlePastThree": "в Дубаях"
@@ -435,23 +525,20 @@
             "text": "Особа, яка подає заявку на отримання іпотеки в Об’єднаних Арабських Еміратах, повинна відповідати наступним вимогам."
         }
     },
-
-
-"titleContact": "Контакти",
-"descriptionContact": {
-    "contactTitlePastOne": "Дубаї, ",
-    "contactTitlePastTwo": "ОАЕ",
-    "adress": "269 Kінг Вул., 5 поверх, Utral Hosue Building, Дубаї, VIC 3000, ОАЕ.",
-    "phone": "+99 (0) 344 956 4050",
-    "emailTitle": "Email: ",
-    "email": " info@sparch.co",
-    "follow": "Слідкуйте за нами:",
-    "toWork": "Розклад: ",
-    "workHours": " Понеділок - П'ятниця : 08:00 - 17:30",
-    "formTitleOne": "Бути в контакті",
-    "formTitleTwo": "з нами"      
-},
-
+    "titleContact": "Контакти",
+    "descriptionContact": {
+        "contactTitlePastOne": "Дубаї, ",
+        "contactTitlePastTwo": "ОАЕ",
+        "adress": "269 Kінг Вул., 5 поверх, Utral Hosue Building, Дубаї, VIC 3000, ОАЕ.",
+        "phone": "+99 (0) 344 956 4050",
+        "emailTitle": "Email: ",
+        "email": " info@sparch.co",
+        "follow": "Слідкуйте за нами:",
+        "toWork": "Розклад: ",
+        "workHours": " Понеділок - П'ятниця : 08:00 - 17:30",
+        "formTitleOne": "Бути в контакті",
+        "formTitleTwo": "з нами"
+    },
     "titleLast": "footer",
     "descriptionLast": {
         "buy": {

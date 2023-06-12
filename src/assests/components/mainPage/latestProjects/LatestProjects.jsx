@@ -1,32 +1,16 @@
 import './latestProjects.scss';
-//import CardProject from '../cardProject/CardProject';
-//import axios from 'axios';
 //import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
+// import 'swiper/css';
 import { Pagination, Scrollbar } from 'swiper';
 import 'swiper/css/pagination';
 import { useTranslation } from 'react-i18next';
 
 function LatestProjects() {
-  //   const [data, setData] = useState([]);
+
   const [t] = useTranslation(["translation"]);
 
-  //   useEffect (() =>{
-  //     axios.get('./latestProject.json')
-  //     .then(function (response) {
-  //       console.log(response);
-  //       setData(response.data);
-  //     })
-  //     .catch(function (error) {
-  //       console.log(error);
-  //     })
-  //     .finally(function () {
-  //     });
-  //   },[]);  
-
-
-  return (<>
+ return (<>
     <div className='menu-latest-projects'>
       <span className='title-latest'>{t('description.latestProjects.titleLatest')}</span>
       <nav>
@@ -45,19 +29,19 @@ function LatestProjects() {
         onSlideChange={() => console.log('slide change')}
         //onSwiper={(swiper) => console.log(swiper)}
         pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
+        scrollbar={{ draggable: true }}       
         breakpoints=  {{
-          "320": {
-              "width": 320,
-              "slidesPerView": 2,
-              "spaceBetween": 6,
-              "grid": {
-               " rows": 2,
-              },
-              // slidesPerColumn: 2                        
+          300: {
+              width: 300,
+              slidesPerView: 2,
+              spaceBetween: 6,
+              // grid: {
+              //   rows: 2,
+              // }
+               slidesPerRow: 2                        
           },
-          768: {
-              width: 768,
+          767: {
+              width: 767,
               slidesPerView: 4,
               spaceBetween: 6                        
           },
@@ -68,97 +52,26 @@ function LatestProjects() {
           }}
 
       }>
-        <SwiperSlide>
-          <div className='wrapper-card'>
+      
+        {t("description.latestProject", { returnObjects: true }).map((el, index) => (
+           <SwiperSlide>
+        <div className='wrapper-card' key={index+el.front}>
             <div className='front-project'>
-              <img src='./image/main/Latest project-villas.webp' alt="user" className='image-project' />
-              <span className='front-title'>{t('description.latestProject.titleOne')}</span>
+                <img src={el.image} alt="user" className='image-project' />
+                <span className='front-title'>{el.front}</span>
             </div>
             <div className='back-project'>
-              <p className='back-title-project'>{t('description.latestProject.titleOne')}</p>
-              <p className='back-description'>{t('description.latestProject.description')}</p>
-              <a href='#' className='a-card'>{t('description.latestProject.seeProject')}</a>
+                <p className='back-title-project'>{el.back}</p>
+                <p className='back-description'>{el.description}</p>
+                <a href='#' className='a-card'>{el.seeProject}</a>
             </div>
-          </div>
+        </div>
         </SwiperSlide>
-
-        <SwiperSlide>
-          <div className='wrapper-card'>
-            <div className='front-project'>
-              <img src='./image/main/Latest project-houses.webp' alt="user" className='image-project' />
-              <span className='front-title'>{t('description.latestProject.titleTwo')}</span>
-            </div>
-            <div className='back-project'>
-              <p className='back-title-project'>{t('description.latestProject.titleTwo')}</p>
-              <p className='back-description'>{t('description.latestProject.description')}</p>
-              <a href='#' className='a-card'>{t('description.latestProject.seeProject')}</a>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className='wrapper-card'>
-            <div className='front-project'>
-              <img src='./image/main/Latest project-houses.webp' alt="user" className='image-project' />
-              <span className='front-title'>{t('description.latestProject.titleThree')}</span>
-            </div>
-            <div className='back-project'>
-              <p className='back-title-project'>{t('description.latestProject.titleThree')}</p>
-              <p className='back-description'>{t('description.latestProject.description')}</p>
-              <a href='#' className='a-card'>{t('description.latestProject.seeProject')}</a>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className='wrapper-card'>
-            <div className='front-project'>
-              <img src='./image/main/Latest project-last.webp' alt="user" className='image-project' />
-              <span className='front-title'>{t('description.latestProject.titleOne')}</span>
-            </div>
-            <div className='back-project'>
-              <p className='back-title-project'>{t('description.latestProject.titleOne')}</p>
-              <p className='back-description'>{t('description.latestProject.description')}</p>
-              <a href='#' className='a-card'>{t('description.latestProject.seeProject')}</a>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className='wrapper-card'>
-            <div className='front-project'>
-              <img src='./image/main/Latest project-villas.webp' alt="user" className='image-project' />
-              <span className='front-title'>{t('description.latestProject.titleOne')}</span>
-            </div>
-            <div className='back-project'>
-              <p className='back-title-project'>{t('description.latestProject.titleOne')}</p>
-              <p className='back-description'>{t('description.latestProject.description')}</p>
-              <a href='#' className='a-card'>{t('description.latestProject.seeProject')}</a>
-            </div>
-          </div>
-        </SwiperSlide>
-
-        <SwiperSlide>
-          <div className='wrapper-card'>
-            <div className='front-project'>
-              <img src='./image/main/Latest project-last.webp' alt="user" className='image-project' />
-              <span className='front-title'>{t('description.latestProject.titleOne')}</span>
-            </div>
-            <div className='back-project'>
-              <p className='back-title-project'>{t('description.latestProject.titleOne')}</p>
-              <p className='back-description'>{t('description.latestProject.description')}</p>
-              <a href='#' className='a-card'>{t('description.latestProject.seeProject')}</a>
-            </div>
-          </div>
-        </SwiperSlide>
-
-      </Swiper>
+ ))}   
+    </Swiper>
     </div >
   </>
   );
 }
 
 export default LatestProjects;
-
-// {data.map((item, index) =><SwiperSlide><CardProject key={index} item={item}/></SwiperSlide>
-// )} 
