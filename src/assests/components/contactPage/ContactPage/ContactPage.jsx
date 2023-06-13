@@ -1,7 +1,7 @@
 import Form from '../form/Form';
 import { useTranslation } from 'react-i18next';
 import "./contactPage.scss";
-import Map from './map/Map'; 
+import Map from '../map/Map'; 
 
 function ContactPage() {
 

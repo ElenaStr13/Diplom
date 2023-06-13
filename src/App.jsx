@@ -9,8 +9,9 @@ import Header from '../src/assests/components/header/Header';
 import Footer from '../src/assests/components/footerPage/footer/Footer';
 import { useTranslation } from 'react-i18next';
 import i18n from './assests/_i18n/i18n';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
+import ScrollToTop from './assests/components/scrollToTop/ScrollToTop';
 //import i18n from './assests/_i18n/i18n';
 //import Modal from './assests/components/modal/Modal';
 //import Button from './assests/components/button/Button';
@@ -21,20 +22,22 @@ function App() {
   const [t] = useTranslation(["translation"]);
 
   return (<>
-  <I18nextProvider i18n={i18n} defaultNS={'translation'}>
-    <BrowserRouter>
-      <Header>
-        
-      </Header>
-      <Routes>
-        <Route path='/' element={<Main />} />
-        <Route path='/blog' element={<Blogs />} />
-        <Route path='/services' element={<ServicesPage />} />
-        <Route path='/contact' element={<ContactPage />} />
-        <Route path='/category' element={<Categoryes />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+    <I18nextProvider i18n={i18n} defaultNS={'translation'}>
+      <BrowserRouter>
+        <Header>
+
+        </Header>
+        {/* <ScrollToTop> */}
+          <Routes>
+            <Route path='/' element={<Main />} />
+            <Route path='/blog' element={<Blogs />} />
+            <Route path='/services' element={<ServicesPage />} />
+            <Route path='/contact' element={<ContactPage />} />
+            <Route path='/category' element={<Categoryes />} />
+          </Routes>
+        {/* </ScrollToTop> */}
+        <Footer />
+      </BrowserRouter>
     </I18nextProvider>
 
   </>);

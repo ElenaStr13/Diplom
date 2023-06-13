@@ -27,6 +27,7 @@ export const ContactUs = () => {
                 onSubmit={(values, { setSubmitting }) => {
                     setTimeout(() => {
                         console.log(JSON.stringify(values, null, 2));
+                        alert("Your email has been sent");
                         setSubmitting(false)
                     }, 400);
                 }} >

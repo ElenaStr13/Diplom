@@ -15,7 +15,10 @@ function Header() {
   const [menuActive, setMenuActive] = useState(false);
  
 
-
+const OnClosing = () => {
+  setIsModalOpen(false);
+  
+}
   const showDropdown = () => {
     setDrop(true);
   }
@@ -66,7 +69,8 @@ function Header() {
     </header>
     {isModalOpen && <Modal
       className={isModalOpen ? 'open' : 'close'}
-      onClose={() => setIsModalOpen(false)}
+      onClose={OnClosing}
+      // onClose={() => setIsModalOpen(false)}
       isOpen={isModalOpen}
     >
     </Modal>
