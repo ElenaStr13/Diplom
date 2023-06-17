@@ -11,7 +11,7 @@ import { useTranslation } from 'react-i18next';
 import i18n from './assests/_i18n/i18n';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { I18nextProvider } from 'react-i18next';
-import ScrollToTop from './assests/components/scrollToTop/ScrollToTop';
+import ScrollToTop from './assests/hooks/ScrollToTop';
 //import i18n from './assests/_i18n/i18n';
 //import Modal from './assests/components/modal/Modal';
 //import Button from './assests/components/button/Button';
@@ -27,7 +27,7 @@ function App() {
         <Header>
 
         </Header>
-        {/* <ScrollToTop> */}
+        <ScrollToTop>
           <Routes>
             <Route path='/' element={<Main />} />
             <Route path='/blog' element={<Blogs />} />
@@ -35,7 +35,7 @@ function App() {
             <Route path='/contact' element={<ContactPage />} />
             <Route path='/category' element={<Categoryes />} />
           </Routes>
-        {/* </ScrollToTop> */}
+        </ScrollToTop>
         <Footer />
       </BrowserRouter>
     </I18nextProvider>

@@ -2,12 +2,14 @@ import './contactUs.scss';
 import Button from '../button/Button';
 import { Formik } from 'formik';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 //import useOutsideClick from '../../hooks/useOutsideClick';
 
 export const ContactUs = () => {
 
     // const { ref } = useOutsideClick(onClose);
     const [t] = useTranslation(["translation"]);
+    const [forUser, setForUser] = useState(false);
 
     return (
         <section className='wrapper-contactus'>
@@ -27,7 +29,7 @@ export const ContactUs = () => {
                 onSubmit={(values, { setSubmitting }) => {
                     setTimeout(() => {
                         console.log(JSON.stringify(values, null, 2));
-                        alert("Your email has been sent");
+                        setForUser(true);
                         setSubmitting(false)
                     }, 400);
                 }} >
@@ -54,6 +56,9 @@ export const ContactUs = () => {
                 )
                 }
             </Formik>
+            {forUser && <div className="for-user">
+                Your email has been sent
+            </div>}
         </section>
     )
 }

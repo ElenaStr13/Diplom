@@ -3,7 +3,7 @@ import './offer.scss';
 import { useTranslation } from 'react-i18next';
 import PaginationOffer from '../pagination/PaginationOffer';
 
-function Offer({isOffers}) {
+function Offer() {
 
     const [t] = useTranslation(["translation"]);
     const [isOffers, setisOffers] = useState([]);
@@ -14,7 +14,7 @@ function Offer({isOffers}) {
 
     return <>
         <h2>{t('descriptionCategory.titleOffer')}</h2>
-        <section className='offers'>
+        {/* <section className='offers'>
             {isOffers.map((el, index) => (
                 <div className='offer' key={index}>
                     <img src={el.image} alt="photo" />
@@ -26,7 +26,7 @@ function Offer({isOffers}) {
                     </div>
                 </div>
             ))}
-        </section>
+        </section> */}
         <PaginationOffer isOffers={isOffers}/>       
     </>
 }

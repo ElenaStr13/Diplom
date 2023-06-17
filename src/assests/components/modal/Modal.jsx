@@ -3,11 +3,13 @@ import Button from '../button/Button';
 import { Formik } from 'formik';
 import { useTranslation } from 'react-i18next';
 import useOutsideClick from '../../hooks/useOutsideClick';
+import { useState } from 'react';
 
 export const Modal = ({ onClose, isOpen, color }) => {
 
     const { ref } = useOutsideClick(onClose);
     const [t] = useTranslation(["translation"]);
+    const [forUserData, setForUserData] = useState(false);
 
     return (<>
         <Formik
@@ -30,6 +32,7 @@ export const Modal = ({ onClose, isOpen, color }) => {
             onSubmit={(values, { setSubmitting }) => {
                 setTimeout(() => {
                     console.log(JSON.stringify(values, null, 2));
+                    setForUserData(true);
                     setSubmitting(false)
                 }, 400);
             }} >
@@ -69,10 +72,13 @@ export const Modal = ({ onClose, isOpen, color }) => {
                     </form>
                     <label htmlFor="checkbox" className='checkbox'>x</label>
                     <input onClick={onClose} type="checkbox" id='checkbox' />
-                </div>
-            )
-            }
+                </div>                             
+            )            
+            }           
         </Formik>
+        {forUserData && <div className="forUser">
+                   Your data has been sent
+               </div>} 
     </>)
 }
 

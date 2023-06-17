@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Items from '../../pagination/Pagination';
 import { useTranslation } from 'react-i18next';
 import './blogs.scss';
-//import Blog from '../blog/Blog';
-
 
 function Blogs() {
 
@@ -31,7 +29,6 @@ function Blogs() {
   useEffect(() => {
     setSearchResult((t("descriptionBlog.blog", { returnObjects: true })).filter(blog => blog.title.includes(search)));    
   }, [search, t])
-
 
   return (< >
     <div className='title-blog'>

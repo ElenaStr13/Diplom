@@ -3,7 +3,7 @@
     width: 90%;
     background-image: url('../../../../public/image/main/contactUs.webp');
     background-repeat: no-repeat;
-    padding-top: 50px;
+    padding-top: 50px;    
 
     h4,
     h1 {
@@ -31,11 +31,17 @@
     .normal-contactUs {
         height: 60px;
         width: 20%;
-        margin-bottom: 85px;
+        margin-bottom: 65px;
         padding-left: 40px;
         box-sizing: border-box;
         border-color: white;
 
+    }
+
+    .for-user {
+        color: #272727;
+        font-weight: 700;
+        padding-bottom: 15px;
     }
 }
 
