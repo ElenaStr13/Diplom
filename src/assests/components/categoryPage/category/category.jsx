@@ -13,8 +13,7 @@ function Category() {
 
     <div className='swiper-wrapper'>
       <Swiper
-        modules={[Pagination, Scrollbar]}
-        style={{ width: '1720px' }}
+        modules={[Pagination, Scrollbar]}      
         spaceBetween={10}
         slidesPerView={4}
         onSlideChange={() => console.log('slide change')}
@@ -30,7 +29,7 @@ function Category() {
             <div className='back-category'>
               <p className='back-title-category'>{t('descriptionCategory.categoryes.backTitle')}</p>
               <p className='category-description'>{t('descriptionCategory.categoryes.backDescription')}</p>
-              <a href='#' className='a-card'>{t('descriptionCategory.Offers.offerOne.learn')}</a>
+              <a href='#' className='a-card'>{t('descriptionCategory.categoryes.learn')}</a>
             </div>
           </div>
         </SwiperSlide>
@@ -44,7 +43,7 @@ function Category() {
             <div className='back-category'>
               <p className='back-title-category'>{t('descriptionCategory.categoryes.backTitle')}</p>
               <p className='category-description'>{t('descriptionCategory.categoryes.backDescription')}</p>
-              <a href='#' className='a-card'>{t('descriptionCategory.Offers.offerOne.learn')}</a>
+              <a href='#' className='a-card'>{t('descriptionCategory.categoryes.learn')}</a>
             </div>
           </div>
         </SwiperSlide>
@@ -58,7 +57,7 @@ function Category() {
             <div className='back-category'>
               <p className='back-title-category'>{t('descriptionCategory.categoryes.backTitle')}</p>
               <p className='category-description'>{t('descriptionCategory.categoryes.backDescription')}</p>
-              <a href='#' className='a-card'>{t('descriptionCategory.Offers.offerOne.learn')}</a>
+              <a href='#' className='a-card'>{t('descriptionCategory.categoryes.learn')}</a>
             </div>
           </div>
         </SwiperSlide>
@@ -72,7 +71,7 @@ function Category() {
             <div className='back-category'>
               <p className='back-title-category'>{t('descriptionCategory.categoryes.backTitle')}</p>
               <p className='category-description'>{t('descriptionCategory.categoryes.backDescription')}</p>
-              <a href='#' className='a-card'>{t('descriptionCategory.Offers.offerOne.learn')}</a>
+              <a href='#' className='a-card'>{t('descriptionCategory.categoryes.learn')}</a>
             </div>
           </div>
         </SwiperSlide>
@@ -86,7 +85,7 @@ function Category() {
             <div className='back-category'>
               <p className='back-title-category'>{t('descriptionCategory.categoryes.backTitle', {returnObjects: true})}</p>
               <p className='category-description'>{t('descriptionCategory.categoryes.backDescription', {returnObjects: true})}</p>
-              <a href='#' className='a-card'>{t('descriptionCategory.Offers.offerOne.learn', {returnObjects: true})}</a>
+              <a href='#' className='a-card'>{t('descriptionCategory.categoryes.learn', {returnObjects: true})}</a>
             </div>
           </div>
         </SwiperSlide>

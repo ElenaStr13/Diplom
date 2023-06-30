@@ -1,5 +1,4 @@
 import './App.scss';
-//import {useState} from 'react';
 import Main from './assests/components/mainPage/main/Main';
 import Blogs from './assests/components/blogPage/blogs/Blogs';
 import ServicesPage from './assests/components/Sirveces/servicesPage/servicesPage';

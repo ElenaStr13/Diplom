@@ -146,7 +146,8 @@
             "categoryTwo": "Villa",
             "categoryThree": "Commercial",
             "backTitle": "Apartments",
-            "backDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit."
+            "backDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat molestie integer aliquam consectetur. Faucibus vitae dui massa tellus magna sit.",
+            "learn": "Learn more >"
         },
         "titleOffer": "Best Offers",
         "Offers": [

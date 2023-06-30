@@ -1,11 +1,13 @@
 import Button from '../../button/Button';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 import "./form.scss";
 import { Formik, Field } from 'formik';
 
 function Form() {
 
     const [t] = useTranslation(["translation"]);
+    const [forSend, setForSend] = useState(false);
 
     return <div className='form'>
         <div>{t('descriptionContact.formTitleOne')}</div>
@@ -39,6 +41,7 @@ function Form() {
             onSubmit={(values, { setSubmitting }) => {
                 setTimeout(() => {
                     console.log(JSON.stringify(values, null, 2));
+                    setForSend(true);
                     setSubmitting(false)
                 }, 400);
             }}                >
@@ -116,8 +119,9 @@ function Form() {
             )
             }
         </Formik>
-
-
+        {forSend && <div className="for-send">
+                Your data has been sent
+            </div>}
     </div>
 }
 

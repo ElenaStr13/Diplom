@@ -2,6 +2,7 @@ body {
     color: white;
     font-family: 'Gilroy';
     text-align: center;
+    $yellowColor: #FCD54C !global;
 
     .title-blog {
         display: flex;
@@ -80,7 +81,7 @@ body {
         display: flex;
         flex-direction: column;   
         width: 350px;    
-        border: 1px solid #FCD54C;
+        border: 1px solid $yellowColor;
     
         .textBlog {
             display: flex;

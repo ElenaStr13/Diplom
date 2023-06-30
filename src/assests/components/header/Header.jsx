@@ -13,7 +13,8 @@ function Header() {
   const [t] = useTranslation(["translation"]);
   const [drop, setDrop] = useState(false);
   const [menuActive, setMenuActive] = useState(false);
- 
+  const [isActiveEn, setisActiveEn] = useState(true);
+  const [isActiveUa, setisActiveUa] = useState(false);
 
 const OnClosing = () => {
   setIsModalOpen(false);
@@ -27,11 +28,22 @@ const OnClosing = () => {
     setDrop(false);
   }
 
+  const chngLanguageEn = () => {
+    i18n.changeLanguage("en");
+    setisActiveEn(true)
+    setisActiveUa(false)
+  }
+
+  const chngLanguageUa = () => {
+    i18n.changeLanguage("ua");
+    setisActiveUa(true)
+    setisActiveEn(false)
+  }  
+
   return (<>
     <header className='header'>
       <div className='leftPart-menu'>
-        <img src="./image/main/logo.webp" alt="" />
-
+        <img src="./image/main/logo.webp" alt=""/>
         <nav className= {menuActive ? 'active menu': 'menu'} onClick={() => setMenuActive(false)}>
           <div  className = 'menu-content'onClick={e => e.stopPropagation()}>
             <Dropdown >
@@ -47,8 +59,20 @@ const OnClosing = () => {
             <li><NavLink className={({ isActive }) => isActive ? "menu-active" : "nav"} to="/blog">{t('description.menu.menuNav2', { returnObjects: true })}</NavLink></li>
             <li><NavLink className={({ isActive }) => isActive ? "menu-active" : "nav"} to="/services">{t('description.menu.menuNav3', { returnObjects: true })}</NavLink></li>
             <li><NavLink className={({ isActive }) => isActive ? "menu-active" : "nav"} to="/contact">{t('description.menu.menuNav4', { returnObjects: true })}</NavLink></li>
+            <div className='for-mobile'>
+        <Button color='btn-header'
+          title='Book a consultation'
+          onClick={() => setIsModalOpen(true)}
+        />
+         <a href="tel:+3099111111">+3 (099) 111-11-11</a>
+         <div className='language'>
+          <button onClick={chngLanguageEn} className={isActiveEn ? "active-lng" : ""}>EN</button>
+          <button onClick={chngLanguageUa} className={isActiveUa ? "active-lng" : ""}>UA</button>
+        </div>
+        </div>
           </div>
         </nav>
+       
       </div>
       <div className='rightPart-menu'>
         <Button color='btn-header'
@@ -56,8 +80,8 @@ const OnClosing = () => {
           onClick={() => setIsModalOpen(true)}
         />
         <div className='language'>
-          <button onClick={() => i18n.changeLanguage("en")}>EN</button>
-          <button onClick={() => i18n.changeLanguage("ua")}>UA</button>
+          <button onClick={chngLanguageEn} className={isActiveEn ? "active-lng" : ""}>EN</button>
+          <button onClick={chngLanguageUa} className={isActiveUa ? "active-lng" : ""}>UA</button>
         </div>
         <a href="tel:+3099111111">+3 (099) 111-11-11</a>
         <nav className='burger-menu'>
@@ -69,8 +93,7 @@ const OnClosing = () => {
     </header>
     {isModalOpen && <Modal
       className={isModalOpen ? 'open' : 'close'}
-      onClose={OnClosing}
-      // onClose={() => setIsModalOpen(false)}
+      onClose={OnClosing}     
       isOpen={isModalOpen}
     >
     </Modal>
