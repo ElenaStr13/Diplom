@@ -18,7 +18,7 @@ import ScrollToTop from './assests/hooks/ScrollToTop';
 function App() {
 
   //const [isModalOpen, setIsModalOpen] = useState(false);
-  const [t] = useTranslation(["translation"]);
+  //const [t] = useTranslation(["translation"]);
 
   return (<>
     <I18nextProvider i18n={i18n} defaultNS={'translation'}>
